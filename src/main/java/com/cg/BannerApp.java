@@ -3,5 +3,39 @@ package com.cg;
 public class BannerApp {
     public static void main(String[] args) {
         System.out.println("oops");
+
+        String[] lineDisplay = {
+                "   ***       ***    ******       *****",
+
+
+
+                " **   **   **   **  **    **   **",
+
+
+                "**     ** **     ** **     ** **",
+
+
+                "**     ** **     ** **    **   **",
+
+
+                "**     ** **     ** ******       ***",
+
+
+                "**     ** **     ** **              **",
+
+
+                "**     ** **     ** **               **",
+
+
+                " **   **   **   **  **              **",
+
+
+                "   ***       ***    **         *****"
+        };
+
+
+        for (String line : lineDisplay){
+            System.out.println(line);
+        }
     }
 }
